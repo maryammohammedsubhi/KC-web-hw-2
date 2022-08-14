@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ body {
+    font-family: 'Lora', serif;
+ }
+
+ 
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+
+  nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+  }
+  
+  nav .logo i {
+    color: #6e0aef;
+    padding-left: 0.75rem;
+  }
+  
+  nav .bars-menu {
+    display: none;
+  }
+
+  .movies-section h1{
+    font-size: 150%;
+    text-align:center;
+    background-color: aliceblue;
+  }
+
+.movies-section h1:hover{
+  color: #6e0aef;
+
+}
+
+  nav .logo h4 {
+    font-family: 'Lora', serif;
+    font-size: 110%;
+  }
+  
+  nav .nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav .nav-items .nav-item {
+    padding: 0 1rem;
+  }
+  
+  nav .nav-link {
+    text-decoration: none;
+    color:black;
+    font-size: 1.4rem;
+  }
+  
+  nav .nav-link:hover {
+    color: #6e0aef;
+    line-height: 1;
+  }
+
+  
+  .newest-movies {
+    padding-top: 3rem;
+    background-color:#6d6875;
+  }
+  
+  .newest-movies .movies-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movies-section h4 {
+    color:#ffca3a;
+    font-size: 1.1rem;
+    margin-bottom:2rem;
+  }
+
+  
+  .movies-section .movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .movies .movie {
+    margin: 1rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .movie img {
+    margin-bottom: 1rem;
+    width: 190px;
+    height: 300px;
+    align-items: center;
+    border: #ffca3a solid;
+    box-shadow: 4px 5px 6px;
+    
+  }
+  
+  .movie img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    border: #6e0aef solid;
+  }
+  .movie h3 {
+    font-size: 1.6rem;
+  }
+  
+  .movies-section h3:hover{
+    color: #6e0aef;
+    cursor:grabbing;
+  }
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.movies-section .btn {
+  width: 7rem;
+  height: 5rem;
+  margin-bottom: 4rem;
+  align-self: center;
+  background-color: #6e0aef;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn:hover {
+  background-color: #ffca3a;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+footer {
+  height: 5vh;
+  margin-top: 5rem;
+  padding: 1rem 0;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.footer-section .socials {
+  margin-bottom: 1rem;
+}
+.footer-section .socials i {
+  padding: 0 1rem;
+  font-size: 1.6rem;
+}
+
+.footer-section .socials i:hover {
+  color: #6e0aef;
+  cursor: pointer;
+}
+ 
+
+.movies-section a{
+  text-decoration: none;
+  font-size:  1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.movies-section a:hover{
+  font-size: 1.5rem;
+}
+
